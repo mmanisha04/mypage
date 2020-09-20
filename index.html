@@ -264,13 +264,13 @@
 </div>
 
 <script >
-  var verify=document.querySelector('.n1');
-  verify.addEventListener('submit',e=>{
-      if(verify.checkValidity()===false){
+  var ver=document.querySelector('.n1');
+  ver.addEventListener('submit',e=>{
+      if(ver.checkValidity()===false){
           e.preventDefault();
           e.stopPropagation();
       }
-      verify.classList.add('was-validated');
+      ver.classList.add('was-validated');
   })
   var verify=document.querySelector('.n2');
   verify.addEventListener('submit',e=>{
